@@ -1,0 +1,96 @@
+body {
+    --bg-color: #FAA307;
+    --circle-color: #748CAB;
+    --card-red: #6A040F;
+    --card-blue: #03071E;
+
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--bg-color);
+    width: 70%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.card {
+    background-color: var(--card-blue);
+    width: 273px;
+    height: 220px;
+    padding: 6px;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.first {
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.second {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: var(--card-red);
+}
+
+.third {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourth { 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--card-red);
+}
+
+.fifth {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-divider-card-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.group-divider-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.group-divider-card-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.group-divider-card-5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle {
+    background-color: var(--circle-color);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 15px;
+    box-shadow: 1px 1px 5px black;
+}
